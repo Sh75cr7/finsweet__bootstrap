@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100..900&family=Manrope:wght@400;600;700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=REM:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+body{
+    font-family: "Roboto Condensed", sans-serif;
+}
+:root{
+    --primary:#FFFFFF;
+    --black:#1C1D28;
+    --bg_button:#FFD2A4;
+}
+.nav__main{
+    display: flex;
+   padding-top: 24px;
+   padding-bottom: 24px;
+   justify-content: space-between;
+}
+.nav__middle{
+    margin-left: 64px;
+
+}
+.nav__items{
+    text-decoration: none;
+    margin-left: 48px;
+    color: var(--primary);
+    font-weight: 400;
+font-size: 16px;
+text-transform: uppercase;
+}
+.button{
+    text-decoration: none;
+    color: var(--black);
+    background:var(--bg_button) ;
+    padding: 20px 48px;
+    border-radius: 12px;
+}
+/* bannerr part start  */
+#banner{
+    background: url('../images/banner.png');
+    height: 663px;
+    background-repeat: no-repeat;
+    background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.banner__text h5{
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--primary);
+    text-transform: uppercase;
+    padding-top: 128px;
+}
+.banner__text h1{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 82px;
+    letter-spacing: -1%;
+    color: var(--primary);
+    text-transform: uppercase;
+    margin-top: 16px;
+    width: 592px;
+   
+}
+.banner__btn{
+    margin-top: 32px;
+    text-transform: uppercase;
+    margin-bottom: 64px;
+    display: inline-block;
+}
+.banner__div{
+    display: flex;
+    gap: 12px;
+    width: 338px;
+}
+.line hr{
+    border: 3px solid #FFD2A4;
+    width: 18px;
+  
+   
+}
+.banner__p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--primary);
+    width: 308px;
+    margin-bottom: 128px;
+}
