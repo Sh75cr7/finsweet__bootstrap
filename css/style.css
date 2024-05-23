@@ -93,3 +93,275 @@ text-transform: uppercase;
     width: 308px;
     margin-bottom: 128px;
 }
+
+/* a church that's relevant part */
+.common__text{
+    text-align: center;
+    margin-top: 128px;
+    text-transform: uppercase;
+}
+.common__title{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--black);
+}
+.common__heading{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -1%;
+    margin-top: 16px;
+    margin-bottom: 64px;
+}
+.card__position{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    border: 0px solid;
+
+    background: #FFF5EB;
+    width: 411px;
+    height: 380px;
+}
+.card__img{
+    width: 48px;
+    height: 48px;
+   margin-top: 48px;
+   margin-left: 80px;
+   margin-bottom: 24px;
+   
+}
+.card__title{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -1%;
+    color: var(--black);
+    text-transform: uppercase;
+    padding-left: 80px;
+    margin-bottom: 8px;
+}
+.card__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);
+    padding-left: 80px;
+    margin-bottom: 64px;
+    width: 251px;
+}
+.scroll__line{
+    height: 16px;
+    width: 100%;
+    background: var(--bg_button);
+}
+/* love and compassion part */
+#loveing{
+    margin-bottom: 128px;
+}
+.common__p{
+    width: 846px;
+    text-transform: lowercase;
+    margin: 0 auto;
+    margin-bottom: 56px;
+}
+.love__images{
+    display: flex; 
+  column-gap: 24px;
+  width: 1024px; 
+  margin-left: 128px;
+  margin-right: -128px;
+
+}
+
+.love__1div{
+    width: 293px;
+    height: 384px;
+    margin-top: -100px;
+}
+.love__2div{
+    width: 390px;
+    height: 512px;
+    margin-top: -8px;
+}
+.love__3div{
+    width: 293px;
+    height: 384px;
+    margin-top: -100px;
+}
+.middle__text{
+    margin-top: 64px;
+}
+.middle__p{
+    margin-top: -52px;
+    width: 512px;
+    text-transform: capitalize;
+ 
+}
+.middle__button a{
+text-decoration: none;
+color: var(--black);
+text-align: center;
+}
+/*   <!-- THE benefits of joining our church part --> */
+
+.benifit__images{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 128px;
+}
+.benifit__1{
+    position: relative;
+}
+.benifit__text{
+    position:absolute ;
+    left: 32px;
+    bottom: 32px;
+}
+.benifit__text__h3{
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--primary);
+    width: 238px;
+    bottom: -32px;
+}
+.benifit__text__p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--primary);
+    margin-top: 16px;
+  
+}
+.common__benifit{
+  position: absolute;
+}
+/* 
+          <!-- join us and become part of something great --> */
+#join{
+    margin-bottom: 128px;
+}
+  .join__main{
+    display: flex;
+    margin-bottom: 64px;
+  } 
+  .join__left{
+    padding: 61px 90px;
+    position: relative;
+  }
+  .join__left__h6{
+    background: -webkit-linear-gradient(#a52b6e, #eb0909fd, #DC9853);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 8%;
+  }   
+  .join__left__h2{
+    font-weight: 700;
+    font-size: 24px;
+    width: 210px;
+    color: var(--black);
+    margin-top: 16px;
+    margin-bottom: 16px;
+    
+  }   
+  .join__left__p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);
+    width: 256px;
+  } 
+  .clock__p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);
+    width: 137px;
+  }
+  .clock__time{
+    width: 20px;
+    height: 20px;
+    margin-right: 16px;
+    margin-top: 5px;
+  }
+  .join__btn{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--bg_button);
+    background: var(--black);
+    padding: 24px 64px;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 2px;
+  }
+  .join__positio h3{
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--black);
+  }
+  .join__positio{
+    position: absolute;
+    top: 32px;
+    right: 32px;
+  }
+  .div__arrow__btn{
+   margin-top: 48px;
+   text-align: right;
+
+  }
+  .img__arrow{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--black);
+  }
+  /*   <!-- We want to serve the world around us --> */
+  #around{
+    background: url(../images/background.jpg);
+    width: 100%;
+    height: 768px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 128px;
+    position: relative;
+  }
+  .arround__containe{
+    background:#FFFFFF;
+    height: 480px;
+    width: 768px;
+    position: absolute;
+    top: 128px;
+    left: 366px;
+  }
+  .arround__h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    color: var(--black);
+    margin-top: 72px;
+    margin-left: 48px;
+  }
+  .arround__p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);
+    margin: 16px;
+    margin-left: 48px;
+  }
+  .visit__btn{
+    margin-left: 48px;
+  }
+  .quoate__img{
+  position: absolute;
+  top: 172px;
+  right: 48px;
+  }
+ 
